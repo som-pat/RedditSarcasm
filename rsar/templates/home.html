@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    h1 {text-align: center;}
+    p{text-align: center;}
+    form{text-align: center;}
+    body {
+      
+       background-size: cover;
+    
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+        <header>
+            <div class="container">
+        
+                <h1><b>Check if the statement is sarcastic or not?</b></h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            
+        
+            
+        </div>
+        </header>
+    
+        <div class="ml-container">
+    
+            <form action="" method="POST">
+            <p><b>Enter the text you want to check it for?</b></p>
+            <!-- <input type="text" name="comment"/> -->
+            <textarea name="message" rows="6" cols="50"></textarea>
+            <br/>
+    
+            <input type="submit" class="btn-info" value="Predict">
+            
+        </form>
+            
+        </div>
+
+{% endblock %}
